@@ -2,7 +2,7 @@ import styles from "./App.module.scss"
 import Header from "./Components/Header/Header"
 import FirstBlock from "./Components/FirstBlock/FirstBlock"
 import Collaboration from "./Components/Collaboration/Collaboration"
-// import Advantages from "./Components/Advantages/Advantages"
+import Advantages from "./Components/Advantages/Advantages"
 // import Agenda from "./Components/Agenda/Agenda"
 // import KeynoteSpeakers from "./Components/KeynoteSpeakers/KeynoteSpeakers"
 // import WhyAttend from "./Components/WhyAttend/WhyAttend"
@@ -18,7 +18,7 @@ const Home = () => (
     <Header />
     <FirstBlock />
     <Collaboration />
-    {/* <Advantages /> */}
+    <Advantages />
     {/* <Agenda /> */}
     {/* <KeynoteSpeakers /> */}
     {/* <WhyAttend /> */}
